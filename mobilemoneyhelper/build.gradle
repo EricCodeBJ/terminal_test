@@ -35,17 +35,3 @@ dependencies {
 
     implementation 'com.squareup.okhttp3:okhttp:4.9.3'
 }
-
-afterEvaluate{
-    publishing{
-        publications{
-            release(MavenPublication){
-                from components.release
-
-                groupId='com.github.ericcodebj'
-                artifactId = 'mobilemoneyhelper'
-                version = '1.0'
-            }
-        }
-    }
-}
