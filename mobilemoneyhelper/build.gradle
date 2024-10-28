@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace 'com.kidevstudio.mobilemoneyhelper'
-    compileSdk 33
+    compileSdk 34
 
     defaultConfig {
         // applicationId "com.kidevstudio.mobilemoneyhelper"
         minSdk 21
-        targetSdk 33
+        targetSdk 34
         versionCode 1
         versionName "1.0"
 
@@ -32,6 +32,7 @@ android {
 dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.6.1'
+    implementation 'com.google.android.material:material:1.12.0'
 
     implementation 'com.squareup.okhttp3:okhttp:4.9.3'
 }
